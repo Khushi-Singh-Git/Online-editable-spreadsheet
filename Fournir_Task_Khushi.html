@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+    <link rel="stylesheet"
+        href="styles.css">
+    <link rel="shortcut icon"
+        href="img/google-sheets-logo-.png"
+        type="image/x-icon">
+    <title>Fournir Innovations Pvt Ltd. Task</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   </head>
+
+<body>
+    <section class="title">
+        <img src="img/google-sheets-logo-.png"
+            alt="sheets"
+            class="title__logo">
+        <div class="title__text">
+            <h1 class="title__text--name">Fournir Innovations Pvt Ltd.Task </h1>
+            <h3 class="title__text--description">An online spreadsheet made with HTML, CSS and JavaScript by Khushi Singh</h3>
+        
+        </div>
+    </section>
+    <section class="spreadsheet">
+        <table class="spreadsheet__table" id="table-main">
+            <thead class="spreadsheet__table--headers" id="table-headers"></thead>
+            <tbody class="spreadsheet__table--body" id="table-body">
+            </tbody>
+        </table>
+    </section>
+
+    <div style="display:flex;justify-content:space-evenly">
+        <div>
+    <section class="spreadsheet-controls">
+        <button class="reset-btn" id="reset">Reset Data</button>
+    </section></div>
+    <div>
+            <button onclick="saveFile()" class="reset-btn" >Export data</button>
+       
+</section></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
