@@ -1,4 +1,4 @@
-# Fournir Innovations Assignment
+# Online editable spreadsheet sheet that can be imported locally
 ![ezgif-5-6168f0cf2c](https://user-images.githubusercontent.com/107871742/175572023-a9659f37-47c6-4f55-90f5-d4fd0340d186.gif)
 
 
